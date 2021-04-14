@@ -1,9 +1,9 @@
 package it.unibs.fp.tamagotchi;
 
-import it.unibs.fp.mylib.MyMenu;
+import it.unibs.fp.mylib.Menu;
 import it.unibs.fp.mylib.InputDati;
 
-public class ProgramMenu extends MyMenu {
+public class ProgramMenu extends Menu {
   private final int MASSIMO_NUMERO_AZIONI = 20;
   private final int RIMOZIONE_PER_TURNO = -5;
   private static Tamagotchi tamagotchi;
